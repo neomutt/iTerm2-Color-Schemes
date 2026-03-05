@@ -1,0 +1,88 @@
+# {{ scheme_name }} – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: {{ scheme_name }}
+#
+# Base palette
+# bg:  #{{ Background_Color.hex }}
+# fg:  #{{ Foreground_Color.hex }}
+# grey:#{{ Ansi_8_Color.hex }}
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #{{ Foreground_Color.hex }} #{{ Background_Color.hex }}
+color error         #{{ Ansi_1_Color.hex }} #{{ Background_Color.hex }}
+color message       #{{ Ansi_4_Color.hex }} #{{ Background_Color.hex }}
+color indicator     #{{ Background_Color.hex }} #{{ Ansi_11_Color.hex }}
+color tree          #{{ Ansi_8_Color.hex }} #{{ Background_Color.hex }}
+
+########################################
+# Status Bar
+########################################
+
+color status        #{{ Foreground_Color.hex }} #{{ Ansi_8_Color.hex }}
+
+########################################
+# Index View
+########################################
+
+color index         #{{ Foreground_Color.hex }} #{{ Background_Color.hex }}
+color index_number  #{{ Ansi_8_Color.hex }} #{{ Background_Color.hex }}
+color index_author  #{{ Ansi_4_Color.hex }} #{{ Background_Color.hex }}
+color index_subject #{{ Foreground_Color.hex }} #{{ Background_Color.hex }}
+color index_date    #{{ Ansi_3_Color.hex }} #{{ Background_Color.hex }}
+color index_flags   #{{ Ansi_9_Color.hex }} #{{ Background_Color.hex }}
+
+color index #{{ Ansi_1_Color.hex }} #{{ Background_Color.hex }} "~D"
+color index #{{ Ansi_11_Color.hex }} #{{ Background_Color.hex }} "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #{{ Foreground_Color.hex }} #{{ Background_Color.hex }}
+color header #{{ Ansi_4_Color.hex }} #{{ Background_Color.hex }} "^From:"
+color header #{{ Ansi_4_Color.hex }} #{{ Background_Color.hex }} "^To:"
+color header #{{ Ansi_3_Color.hex }} #{{ Background_Color.hex }} "^Subject:"
+color header #{{ Ansi_3_Color.hex }} #{{ Background_Color.hex }} "^Date:"
+color header #{{ Ansi_14_Color.hex }} #{{ Background_Color.hex }} "^Reply-To:"
+color header #{{ Ansi_14_Color.hex }} #{{ Background_Color.hex }} "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #{{ Foreground_Color.hex }} #{{ Background_Color.hex }} ".*"
+color quoted0       #{{ Ansi_10_Color.hex }} #{{ Background_Color.hex }}
+color quoted1       #{{ Ansi_14_Color.hex }} #{{ Background_Color.hex }}
+color signature     #{{ Ansi_8_Color.hex }} #{{ Background_Color.hex }}
+color body #{{ Ansi_12_Color.hex }} #{{ Background_Color.hex }} "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #{{ Background_Color.hex }} #{{ Ansi_3_Color.hex }}
+
+########################################
+# Compose
+########################################
+
+color compose_header #{{ Ansi_4_Color.hex }} #{{ Background_Color.hex }}
+color compose_security_encrypt #{{ Ansi_9_Color.hex }} #{{ Background_Color.hex }}
+color compose_security_sign #{{ Ansi_10_Color.hex }} #{{ Background_Color.hex }}
+color compose_security_both #{{ Ansi_14_Color.hex }} #{{ Background_Color.hex }}
+
+########################################
+# Diff / Patch
+########################################
+
+color body #{{ Background_Color.hex }} #{{ Ansi_10_Color.hex }} "^\\+.*"
+color body #{{ Background_Color.hex }} #{{ Ansi_1_Color.hex }} "^-.*"
+color body #{{ Background_Color.hex }} #{{ Ansi_3_Color.hex }} "^@@.*"
+
+# vim: ft=neomuttrc

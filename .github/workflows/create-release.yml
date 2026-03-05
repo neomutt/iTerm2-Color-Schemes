@@ -187,6 +187,7 @@ jobs:
 
           ### Applications & Tools
           - **hexchat** - HexChat IRC client (https://hexchat.github.io/)
+          - **neomutt** - NeoMutt (https://neomutt.orc/)
           - **remmina** - Remmina Remote Desktop Client (https://remmina.org/)
           - **termframe** - TermFrame (https://terminaltrove.com/termframe/)
           - **vhs** - VHS (https://github.com/charmbracelet/vhs)
