@@ -1,0 +1,88 @@
+# Monospace Dark – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: Monospace Dark
+#
+# Base palette
+# bg:  #10151d
+# fg:  #a4afbd
+# grey:#8b98a9
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #a4afbd #10151d
+color error         #f76769 #10151d
+color message       #708fff #10151d
+color indicator     #10151d #ffc26e
+color tree          #8b98a9 #10151d
+
+########################################
+# Status Bar
+########################################
+
+color status        #a4afbd #8b98a9
+
+########################################
+# Index View
+########################################
+
+color index         #a4afbd #10151d
+color index_number  #8b98a9 #10151d
+color index_author  #708fff #10151d
+color index_subject #a4afbd #10151d
+color index_date    #ffa23e #10151d
+color index_flags   #fc8f8e #10151d
+
+color index #f76769 #10151d "~D"
+color index #ffc26e #10151d "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #a4afbd #10151d
+color header #708fff #10151d "^From:"
+color header #708fff #10151d "^To:"
+color header #ffa23e #10151d "^Subject:"
+color header #ffa23e #10151d "^Date:"
+color header #71c2ee #10151d "^Reply-To:"
+color header #71c2ee #10151d "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #a4afbd #10151d ".*"
+color quoted0       #66ce98 #10151d
+color quoted1       #71c2ee #10151d
+color signature     #8b98a9 #10151d
+color body #a2b6ff #10151d "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #10151d #ffa23e
+
+########################################
+# Compose
+########################################
+
+color compose_header #708fff #10151d
+color compose_security_encrypt #fc8f8e #10151d
+color compose_security_sign #66ce98 #10151d
+color compose_security_both #71c2ee #10151d
+
+########################################
+# Diff / Patch
+########################################
+
+color body #10151d #66ce98 "^\\+.*"
+color body #10151d #f76769 "^-.*"
+color body #10151d #ffa23e "^@@.*"
+
+# vim: ft=neomuttrc

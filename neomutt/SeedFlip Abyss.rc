@@ -1,0 +1,88 @@
+# SeedFlip Abyss – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: SeedFlip Abyss
+#
+# Base palette
+# bg:  #050510
+# fg:  #e0e0f0
+# grey:#3d3d70
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #e0e0f0 #050510
+color error         #d26060 #050510
+color message       #6090d2 #050510
+color indicator     #050510 #e3d79c
+color tree          #3d3d70 #050510
+
+########################################
+# Status Bar
+########################################
+
+color status        #e0e0f0 #3d3d70
+
+########################################
+# Index View
+########################################
+
+color index         #e0e0f0 #050510
+color index_number  #3d3d70 #050510
+color index_author  #6090d2 #050510
+color index_subject #e0e0f0 #050510
+color index_date    #d2bf60 #050510
+color index_flags   #e39c9c #050510
+
+color index #d26060 #050510 "~D"
+color index #e3d79c #050510 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #e0e0f0 #050510
+color header #6090d2 #050510 "^From:"
+color header #6090d2 #050510 "^To:"
+color header #d2bf60 #050510 "^Subject:"
+color header #d2bf60 #050510 "^Date:"
+color header #9ce3e3 #050510 "^Reply-To:"
+color header #9ce3e3 #050510 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #e0e0f0 #050510 ".*"
+color quoted0       #9ce3b3 #050510
+color quoted1       #9ce3e3 #050510
+color signature     #3d3d70 #050510
+color body #9cb9e3 #050510 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #050510 #d2bf60
+
+########################################
+# Compose
+########################################
+
+color compose_header #6090d2 #050510
+color compose_security_encrypt #e39c9c #050510
+color compose_security_sign #9ce3b3 #050510
+color compose_security_both #9ce3e3 #050510
+
+########################################
+# Diff / Patch
+########################################
+
+color body #050510 #9ce3b3 "^\\+.*"
+color body #050510 #d26060 "^-.*"
+color body #050510 #d2bf60 "^@@.*"
+
+# vim: ft=neomuttrc

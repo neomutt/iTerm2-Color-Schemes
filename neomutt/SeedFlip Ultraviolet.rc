@@ -1,0 +1,88 @@
+# SeedFlip Ultraviolet – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: SeedFlip Ultraviolet
+#
+# Base palette
+# bg:  #0b0014
+# fg:  #e8e0f5
+# grey:#5b2687
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #e8e0f5 #0b0014
+color error         #f04242 #0b0014
+color message       #428bf0 #0b0014
+color indicator     #0b0014 #f5e389
+color tree          #5b2687 #0b0014
+
+########################################
+# Status Bar
+########################################
+
+color status        #e8e0f5 #5b2687
+
+########################################
+# Index View
+########################################
+
+color index         #e8e0f5 #0b0014
+color index_number  #5b2687 #0b0014
+color index_author  #428bf0 #0b0014
+color index_subject #e8e0f5 #0b0014
+color index_date    #f0d342 #0b0014
+color index_flags   #f58989 #0b0014
+
+color index #f04242 #0b0014 "~D"
+color index #f5e389 #0b0014 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #e8e0f5 #0b0014
+color header #428bf0 #0b0014 "^From:"
+color header #428bf0 #0b0014 "^To:"
+color header #f0d342 #0b0014 "^Subject:"
+color header #f0d342 #0b0014 "^Date:"
+color header #89f5f5 #0b0014 "^Reply-To:"
+color header #89f5f5 #0b0014 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #e8e0f5 #0b0014 ".*"
+color quoted0       #89f5ad #0b0014
+color quoted1       #89f5f5 #0b0014
+color signature     #5b2687 #0b0014
+color body #89b6f5 #0b0014 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #0b0014 #f0d342
+
+########################################
+# Compose
+########################################
+
+color compose_header #428bf0 #0b0014
+color compose_security_encrypt #f58989 #0b0014
+color compose_security_sign #89f5ad #0b0014
+color compose_security_both #89f5f5 #0b0014
+
+########################################
+# Diff / Patch
+########################################
+
+color body #0b0014 #89f5ad "^\\+.*"
+color body #0b0014 #f04242 "^-.*"
+color body #0b0014 #f0d342 "^@@.*"
+
+# vim: ft=neomuttrc

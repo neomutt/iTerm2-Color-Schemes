@@ -1,0 +1,88 @@
+# SeedFlip Canopy – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: SeedFlip Canopy
+#
+# Base palette
+# bg:  #0f1714
+# fg:  #ededed
+# grey:#2d453c
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #ededed #0f1714
+color error         #d65c5c #0f1714
+color message       #5c8fd6 #0f1714
+color indicator     #0f1714 #e6d999
+color tree          #2d453c #0f1714
+
+########################################
+# Status Bar
+########################################
+
+color status        #ededed #2d453c
+
+########################################
+# Index View
+########################################
+
+color index         #ededed #0f1714
+color index_number  #2d453c #0f1714
+color index_author  #5c8fd6 #0f1714
+color index_subject #ededed #0f1714
+color index_date    #d6c25c #0f1714
+color index_flags   #e69999 #0f1714
+
+color index #d65c5c #0f1714 "~D"
+color index #e6d999 #0f1714 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #ededed #0f1714
+color header #5c8fd6 #0f1714 "^From:"
+color header #5c8fd6 #0f1714 "^To:"
+color header #d6c25c #0f1714 "^Subject:"
+color header #d6c25c #0f1714 "^Date:"
+color header #99e6e6 #0f1714 "^Reply-To:"
+color header #99e6e6 #0f1714 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #ededed #0f1714 ".*"
+color quoted0       #99e6b2 #0f1714
+color quoted1       #99e6e6 #0f1714
+color signature     #2d453c #0f1714
+color body #99b9e6 #0f1714 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #0f1714 #d6c25c
+
+########################################
+# Compose
+########################################
+
+color compose_header #5c8fd6 #0f1714
+color compose_security_encrypt #e69999 #0f1714
+color compose_security_sign #99e6b2 #0f1714
+color compose_security_both #99e6e6 #0f1714
+
+########################################
+# Diff / Patch
+########################################
+
+color body #0f1714 #99e6b2 "^\\+.*"
+color body #0f1714 #d65c5c "^-.*"
+color body #0f1714 #d6c25c "^@@.*"
+
+# vim: ft=neomuttrc

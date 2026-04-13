@@ -1,0 +1,88 @@
+# SeedFlip Amethyst – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: SeedFlip Amethyst
+#
+# Base palette
+# bg:  #f8f7f6
+# fg:  #1a0a2e
+# grey:#b5aba0
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #1a0a2e #f8f7f6
+color error         #bd0f0f #f8f7f6
+color message       #0f58bd #f8f7f6
+color indicator     #f8f7f6 #d4b312
+color tree          #b5aba0 #f8f7f6
+
+########################################
+# Status Bar
+########################################
+
+color status        #1a0a2e #b5aba0
+
+########################################
+# Index View
+########################################
+
+color index         #1a0a2e #f8f7f6
+color index_number  #b5aba0 #f8f7f6
+color index_author  #0f58bd #f8f7f6
+color index_subject #1a0a2e #f8f7f6
+color index_date    #bda00f #f8f7f6
+color index_flags   #ee2b2b #f8f7f6
+
+color index #bd0f0f #f8f7f6 "~D"
+color index #d4b312 #f8f7f6 "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #1a0a2e #f8f7f6
+color header #0f58bd #f8f7f6 "^From:"
+color header #0f58bd #f8f7f6 "^To:"
+color header #bda00f #f8f7f6 "^Subject:"
+color header #bda00f #f8f7f6 "^Date:"
+color header #05c8c8 #f8f7f6 "^Reply-To:"
+color header #05c8c8 #f8f7f6 "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #1a0a2e #f8f7f6 ".*"
+color quoted0       #12d452 #f8f7f6
+color quoted1       #05c8c8 #f8f7f6
+color signature     #b5aba0 #f8f7f6
+color body #2b7cee #f8f7f6 "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #f8f7f6 #bda00f
+
+########################################
+# Compose
+########################################
+
+color compose_header #0f58bd #f8f7f6
+color compose_security_encrypt #ee2b2b #f8f7f6
+color compose_security_sign #12d452 #f8f7f6
+color compose_security_both #05c8c8 #f8f7f6
+
+########################################
+# Diff / Patch
+########################################
+
+color body #f8f7f6 #12d452 "^\\+.*"
+color body #f8f7f6 #bd0f0f "^-.*"
+color body #f8f7f6 #bda00f "^@@.*"
+
+# vim: ft=neomuttrc

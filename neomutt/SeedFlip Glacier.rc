@@ -1,0 +1,88 @@
+# SeedFlip Glacier – NeoMutt adaptation
+#
+# Generated automatically from iTerm2-Color-Schemes
+# Source: SeedFlip Glacier
+#
+# Base palette
+# bg:  #f8fafc
+# fg:  #0f172a
+# grey:#8dadce
+
+set color_directcolor = yes
+
+########################################
+# Global Defaults
+########################################
+
+color normal        #0f172a #f8fafc
+color error         #bd0f0f #f8fafc
+color message       #0f58bd #f8fafc
+color indicator     #f8fafc #d4b312
+color tree          #8dadce #f8fafc
+
+########################################
+# Status Bar
+########################################
+
+color status        #0f172a #8dadce
+
+########################################
+# Index View
+########################################
+
+color index         #0f172a #f8fafc
+color index_number  #8dadce #f8fafc
+color index_author  #0f58bd #f8fafc
+color index_subject #0f172a #f8fafc
+color index_date    #bda00f #f8fafc
+color index_flags   #ee2b2b #f8fafc
+
+color index #bd0f0f #f8fafc "~D"
+color index #d4b312 #f8fafc "~T"
+
+########################################
+# Headers
+########################################
+
+color hdrdefault    #0f172a #f8fafc
+color header #0f58bd #f8fafc "^From:"
+color header #0f58bd #f8fafc "^To:"
+color header #bda00f #f8fafc "^Subject:"
+color header #bda00f #f8fafc "^Date:"
+color header #12d4d4 #f8fafc "^Reply-To:"
+color header #12d4d4 #f8fafc "^Message-ID:"
+
+########################################
+# Body
+########################################
+
+color body          #0f172a #f8fafc ".*"
+color quoted0       #12d452 #f8fafc
+color quoted1       #12d4d4 #f8fafc
+color signature     #8dadce #f8fafc
+color body #2b7cee #f8fafc "(https?|ftp)://[^ ]+"
+
+########################################
+# Search
+########################################
+
+color search #f8fafc #bda00f
+
+########################################
+# Compose
+########################################
+
+color compose_header #0f58bd #f8fafc
+color compose_security_encrypt #ee2b2b #f8fafc
+color compose_security_sign #12d452 #f8fafc
+color compose_security_both #12d4d4 #f8fafc
+
+########################################
+# Diff / Patch
+########################################
+
+color body #f8fafc #12d452 "^\\+.*"
+color body #f8fafc #bd0f0f "^-.*"
+color body #f8fafc #bda00f "^@@.*"
+
+# vim: ft=neomuttrc
